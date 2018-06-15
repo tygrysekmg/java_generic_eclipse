@@ -1,0 +1,1126 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='update site: http://eclipsefp.sf.net/updates' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
+  <properties size='3'>
+    <property name='p2.timestamp' value='1529070922860'/>
+    <property name='eclipse.p2.force.threading' value='true'/>
+    <property name='site.checksum' value='2358157145'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='222'>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.profiler' version='2.6.1.201407221721'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.profiler_2.6.1.201407221721.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.buildwrapper' version='2.6.0.201406101929'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.buildwrapper_2.6.0.201406101929.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.ghccompiler' version='2.5.6.201312291829'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.ghccompiler_2.5.6.201312291829.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='net.sf.eclipsefp.haskell' version='2.6.3.201501121809'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/features/net.sf.eclipsefp.haskell_2.6.3.201501121809.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.core' version='2.5.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.core_2.5.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.util' version='2.6.1.201411231617'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.util_2.6.1.201411231617.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.compat' version='2.2.4'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.compat_2.2.4.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='net.sf.eclipsefp.haskell' version='2.5.3.201306281701'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/features/net.sf.eclipsefp.haskell_2.5.3.201306281701.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.ghccompiler' version='2.5.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.ghccompiler_2.5.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='net.sf.eclipsefp.haskell' version='2.5.6.201312291829'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/features/net.sf.eclipsefp.haskell_2.5.6.201312291829.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.ui' version='2.6.2.201411231617'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.ui_2.6.2.201411231617.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.debug.ui' version='2.5.3.201312291829'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.debug.ui_2.5.3.201312291829.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.style' version='2.5.5.201312291829'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.style_2.5.5.201312291829.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.core' version='2.2.3'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.core_2.2.3.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.browser' version='2.6.3.201501121809'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.browser_2.6.3.201501121809.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.core' version='2.3.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.core_2.3.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.browser' version='2.2.4'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.browser_2.2.4.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.hlint' version='2.2.3'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.hlint_2.2.3.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.core' version='2.6.3.201501121809'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.core_2.6.3.201501121809.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.buildwrapper' version='2.2.3'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.buildwrapper_2.2.3.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.core' version='2.4.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.core_2.4.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell' version='2.3.2'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell_2.3.2.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.buildwrapper' version='2.6.1.201407221721'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.buildwrapper_2.6.1.201407221721.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.ghccompiler' version='2.6.3.201501291630'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.ghccompiler_2.6.3.201501291630.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='net.sf.eclipsefp.haskell' version='2.5.4.201307302137'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/features/net.sf.eclipsefp.haskell_2.5.4.201307302137.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.debug.core' version='2.6.3.201501291630'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.debug.core_2.6.3.201501291630.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.ui' version='2.2.3'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.ui_2.2.3.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.util' version='2.5.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.util_2.5.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.hlint' version='2.3.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.hlint_2.3.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.ui' version='2.6.0.201406101929'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.ui_2.6.0.201406101929.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.profiler' version='2.6.0.201406101929'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.profiler_2.6.0.201406101929.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.debug.ui' version='2.5.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.debug.ui_2.5.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='net.sf.eclipsefp.haskell' version='2.3.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/features/net.sf.eclipsefp.haskell_2.3.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.core' version='2.5.3.201306281701'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.core_2.5.3.201306281701.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.hlint' version='2.5.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.hlint_2.5.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.browser' version='2.4.1'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.browser_2.4.1.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='net.sf.eclipsefp.haskell' version='2.4.2'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/features/net.sf.eclipsefp.haskell_2.4.2.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='net.sf.eclipsefp.haskell' version='2.5.5.201310201212'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/features/net.sf.eclipsefp.haskell_2.5.5.201310201212.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.debug.core' version='2.5.3.201310201212'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.debug.core_2.5.3.201310201212.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.debug.core' version='2.2.4'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.debug.core_2.2.4.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.hugs' version='2.2.4'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.hugs_2.2.4.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.buildwrapper' version='2.4.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.buildwrapper_2.4.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.hlint' version='2.5.5.201310201212'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.hlint_2.5.5.201310201212.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.util' version='2.3.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.util_2.3.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.doc.user' version='2.4.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.doc.user_2.4.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.ui' version='2.4.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.ui_2.4.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.browser' version='2.5.6.201312291829'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.browser_2.5.6.201312291829.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.hlint' version='2.5.3.201307302137'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.hlint_2.5.3.201307302137.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.debug.ui' version='2.6.2.201411231617'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.debug.ui_2.6.2.201411231617.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.profiler' version='2.2.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.profiler_2.2.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.profiler' version='2.6.1.201411231617'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.profiler_2.6.1.201411231617.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.debug.ui' version='2.5.3.201310201212'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.debug.ui_2.5.3.201310201212.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.debug.core' version='2.6.3.201501121809'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.debug.core_2.6.3.201501121809.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.doc.user' version='2.2.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.doc.user_2.2.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.util' version='2.6.1.201407221721'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.util_2.6.1.201407221721.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.hugs' version='2.2.1'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.hugs_2.2.1.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.ui' version='2.5.2'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.ui_2.5.2.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.hlint' version='2.5.5.201312291829'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.hlint_2.5.5.201312291829.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.debug.ui' version='2.3.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.debug.ui_2.3.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.doc.user' version='2.6.1.201501291630'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.doc.user_2.6.1.201501291630.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.hugs' version='2.5.3.201306281701'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.hugs_2.5.3.201306281701.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.debug.core' version='2.5.3.201307302137'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.debug.core_2.5.3.201307302137.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.util' version='2.5.3.201306281701'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.util_2.5.3.201306281701.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.doc.user' version='2.2.4'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.doc.user_2.2.4.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.debug.core' version='2.3.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.debug.core_2.3.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.compat' version='2.0.2'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.compat_2.0.2.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.browser' version='2.5.2'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.browser_2.5.2.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.ui' version='2.3.2'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.ui_2.3.2.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell' version='2.5.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell_2.5.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.debug.core' version='2.2.3'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.debug.core_2.2.3.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.profiler' version='2.2.4'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.profiler_2.2.4.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.util' version='2.6.3.201501121809'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.util_2.6.3.201501121809.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell' version='2.4.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell_2.4.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.debug.core' version='2.4.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.debug.core_2.4.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.debug.ui' version='2.5.3.201307302137'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.debug.ui_2.5.3.201307302137.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.buildwrapper' version='2.3.1'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.buildwrapper_2.3.1.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.core' version='2.3.2'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.core_2.3.2.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.hlint' version='2.5.5.201406101929'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.hlint_2.5.5.201406101929.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.browser' version='2.5.5.201310201212'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.browser_2.5.5.201310201212.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.util' version='2.5.5.201310201212'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.util_2.5.5.201310201212.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell' version='2.6.1.201411231617'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell_2.6.1.201411231617.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.ui' version='2.5.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.ui_2.5.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.util' version='2.4.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.util_2.4.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell' version='2.2.4'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell_2.2.4.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.profiler' version='2.6.1.201501291630'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.profiler_2.6.1.201501291630.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.style' version='2.6.0.201406101929'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.style_2.6.0.201406101929.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.buildwrapper' version='2.3.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.buildwrapper_2.3.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='net.sf.eclipsefp.haskell' version='2.5.2'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/features/net.sf.eclipsefp.haskell_2.5.2.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.util' version='2.2.3'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.util_2.2.3.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.compat' version='2.6.1.201501291630'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.compat_2.6.1.201501291630.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.buildwrapper' version='2.5.5.201310201212'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.buildwrapper_2.5.5.201310201212.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.haddock' version='2.1.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.haddock_2.1.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.debug.core' version='2.3.1'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.debug.core_2.3.1.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.util' version='2.3.2'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.util_2.3.2.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.core' version='2.5.6.201312291829'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.core_2.5.6.201312291829.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.hugs' version='2.5.5.201312291829'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.hugs_2.5.5.201312291829.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell' version='2.6.0.201406101929'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell_2.6.0.201406101929.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.style' version='2.5.5.201310201212'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.style_2.5.5.201310201212.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.core' version='2.6.1.201407221721'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.core_2.6.1.201407221721.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.hugs' version='2.5.5.201310201212'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.hugs_2.5.5.201310201212.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.debug.ui' version='2.6.2.201501121809'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.debug.ui_2.6.2.201501121809.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.ui' version='2.6.1.201407221721'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.ui_2.6.1.201407221721.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.buildwrapper' version='2.6.3.201501121809'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.buildwrapper_2.6.3.201501121809.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.ui' version='2.5.6.201312291829'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.ui_2.5.6.201312291829.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.util' version='2.5.5.201312291829'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.util_2.5.5.201312291829.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.core' version='2.3.1'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.core_2.3.1.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.util' version='2.6.0.201406101929'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.util_2.6.0.201406101929.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.util' version='2.2.4'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.util_2.2.4.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.debug.ui' version='2.2.4'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.debug.ui_2.2.4.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.util' version='2.5.1'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.util_2.5.1.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.ui' version='2.2.4'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.ui_2.2.4.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.buildwrapper' version='2.5.4.201307302137'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.buildwrapper_2.5.4.201307302137.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.core' version='2.6.2.201411231617'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.core_2.6.2.201411231617.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.doc.user' version='2.3.2'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.doc.user_2.3.2.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.buildwrapper' version='2.5.3.201306281701'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.buildwrapper_2.5.3.201306281701.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='net.sf.eclipsefp.haskell' version='2.3.1'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/features/net.sf.eclipsefp.haskell_2.3.1.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.browser' version='2.3.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.browser_2.3.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.hugs' version='2.6.1.201411231617'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.hugs_2.6.1.201411231617.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.style' version='2.6.1.201501291630'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.style_2.6.1.201501291630.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.browser' version='2.6.0.201406101929'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.browser_2.6.0.201406101929.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='net.sf.eclipsefp.haskell' version='2.4.1'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/features/net.sf.eclipsefp.haskell_2.4.1.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.hugs' version='2.6.1.201501121809'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.hugs_2.6.1.201501121809.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.style' version='2.6.1.201501121809'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.style_2.6.1.201501121809.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.ghccompiler' version='2.6.1.201407221721'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.ghccompiler_2.6.1.201407221721.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.hugs' version='2.3.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.hugs_2.3.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.buildwrapper' version='2.5.6.201312291829'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.buildwrapper_2.5.6.201312291829.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.debug.ui' version='2.5.1'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.debug.ui_2.5.1.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.ui' version='2.5.1'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.ui_2.5.1.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='net.sf.eclipsefp.haskell' version='2.6.1.201407221721'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/features/net.sf.eclipsefp.haskell_2.6.1.201407221721.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.debug.ui' version='2.3.1'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.debug.ui_2.3.1.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.ui' version='2.3.1'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.ui_2.3.1.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.style' version='2.6.1.201411231617'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.style_2.6.1.201411231617.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='net.sf.eclipsefp.haskell' version='2.6.0.201406101929'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/features/net.sf.eclipsefp.haskell_2.6.0.201406101929.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.util' version='2.3.1'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.util_2.3.1.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.ui' version='2.4.1'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.ui_2.4.1.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.debug.core' version='2.3.2'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.debug.core_2.3.2.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.hugs' version='2.5.5.201406101929'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.hugs_2.5.5.201406101929.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.buildwrapper' version='2.5.2'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.buildwrapper_2.5.2.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.core' version='2.2.4'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.core_2.2.4.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.ui' version='2.6.3.201501121809'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.ui_2.6.3.201501121809.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.doc.user' version='2.6.1.201501121809'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.doc.user_2.6.1.201501121809.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.debug.ui' version='2.6.1.201407221721'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.debug.ui_2.6.1.201407221721.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.hlint' version='2.4.2'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.hlint_2.4.2.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='net.sf.eclipsefp.haskell' version='2.6.2.201411231617'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/features/net.sf.eclipsefp.haskell_2.6.2.201411231617.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.ghccompiler' version='2.2.4'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.ghccompiler_2.2.4.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.ui' version='2.5.3.201306281701'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.ui_2.5.3.201306281701.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.browser' version='2.6.1.201407221721'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.browser_2.6.1.201407221721.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.hlint' version='2.6.3.201501121809'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.hlint_2.6.3.201501121809.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.ui' version='2.6.4.201501291630'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.ui_2.6.4.201501291630.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell' version='2.6.1.201501121809'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell_2.6.1.201501121809.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.util' version='2.6.3.201501291630'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.util_2.6.3.201501291630.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.browser' version='2.5.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.browser_2.5.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.debug.core' version='2.6.0.201406101929'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.debug.core_2.6.0.201406101929.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='net.sf.eclipsefp.haskell' version='2.5.1'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/features/net.sf.eclipsefp.haskell_2.5.1.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.core' version='2.6.0.201406101929'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.core_2.6.0.201406101929.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.hlint' version='2.6.1.201411231617'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.hlint_2.6.1.201411231617.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.hugs' version='2.6.1.201407221721'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.hugs_2.6.1.201407221721.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.browser' version='2.6.2.201411231617'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.browser_2.6.2.201411231617.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.doc.user' version='2.6.1.201407221721'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.doc.user_2.6.1.201407221721.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.profiler' version='2.3.2'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.profiler_2.3.2.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell' version='2.6.1.201407221721'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell_2.6.1.201407221721.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.hugs' version='2.6.1.201501291630'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.hugs_2.6.1.201501291630.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.buildwrapper' version='2.3.2'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.buildwrapper_2.3.2.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.compat' version='2.6.1.201411231617'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.compat_2.6.1.201411231617.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.browser' version='2.6.4.201501291630'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.browser_2.6.4.201501291630.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell' version='2.6.1.201501291630'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell_2.6.1.201501291630.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.debug.core' version='2.6.2.201411231617'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.debug.core_2.6.2.201411231617.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.buildwrapper' version='2.4.1'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.buildwrapper_2.4.1.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.browser' version='2.3.2'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.browser_2.3.2.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.hlint' version='2.3.1'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.hlint_2.3.1.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.core' version='2.6.4.201501291630'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.core_2.6.4.201501291630.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.debug.ui' version='2.3.2'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.debug.ui_2.3.2.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.hlint' version='2.2.4'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.hlint_2.2.4.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.ui' version='2.5.5.201310201212'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.ui_2.5.5.201310201212.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.core' version='2.5.5.201310201212'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.core_2.5.5.201310201212.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.debug.core' version='2.5.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.debug.core_2.5.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.buildwrapper' version='2.2.4'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.buildwrapper_2.2.4.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.profiler' version='2.6.1.201501121809'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.profiler_2.6.1.201501121809.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell' version='2.0.3'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell_2.0.3.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.buildwrapper' version='2.5.1'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.buildwrapper_2.5.1.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.hlint' version='2.6.3.201501291630'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.hlint_2.6.3.201501291630.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='net.sf.eclipsefp.haskell' version='2.4.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/features/net.sf.eclipsefp.haskell_2.4.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='net.sf.eclipsefp.haskell' version='2.5.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/features/net.sf.eclipsefp.haskell_2.5.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.style' version='2.6.1.201407221721'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.style_2.6.1.201407221721.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.hlint' version='2.5.3.201306281701'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.hlint_2.5.3.201306281701.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.debug.ui' version='2.6.2.201501291630'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.debug.ui_2.6.2.201501291630.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='net.sf.eclipsefp.haskell' version='2.2.3'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/features/net.sf.eclipsefp.haskell_2.2.3.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.debug.ui' version='2.6.0.201406101929'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.debug.ui_2.6.0.201406101929.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.core' version='2.5.2'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.core_2.5.2.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.ghccompiler' version='2.6.1.201411231617'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.ghccompiler_2.6.1.201411231617.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.buildwrapper' version='2.6.3.201501291630'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.buildwrapper_2.6.3.201501291630.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.hugs' version='2.5.3.201307302137'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.hugs_2.5.3.201307302137.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.doc.user' version='2.6.1.201411231617'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.doc.user_2.6.1.201411231617.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.debug.ui' version='2.2.3'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.debug.ui_2.2.3.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.debug.core' version='2.5.3.201306281701'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.debug.core_2.5.3.201306281701.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.ui' version='2.5.4.201307302137'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.ui_2.5.4.201307302137.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.debug.core' version='2.5.6.201312291829'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.debug.core_2.5.6.201312291829.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.util' version='2.5.3.201307302137'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.util_2.5.3.201307302137.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='net.sf.eclipsefp.haskell' version='2.3.2'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/features/net.sf.eclipsefp.haskell_2.3.2.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.buildwrapper' version='2.6.2.201411231617'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.buildwrapper_2.6.2.201411231617.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.buildwrapper' version='2.5.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.buildwrapper_2.5.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.profiler' version='2.3.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.profiler_2.3.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.debug.core' version='2.6.1.201407221721'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.debug.core_2.6.1.201407221721.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.hugs' version='2.3.1'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.hugs_2.3.1.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.compat' version='2.6.1.201501121809'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.compat_2.6.1.201501121809.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='net.sf.eclipsefp.haskell' version='2.2.4'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/features/net.sf.eclipsefp.haskell_2.2.4.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.debug.ui' version='2.4.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.debug.ui_2.4.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.ghccompiler' version='2.2.3'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.ghccompiler_2.2.3.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='net.sf.eclipsefp.haskell' version='2.6.4.201501291630'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/features/net.sf.eclipsefp.haskell_2.6.4.201501291630.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.compat' version='2.6.1.201407221721'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.compat_2.6.1.201407221721.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.debug.ui' version='2.5.3.201306281701'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.debug.ui_2.5.3.201306281701.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.browser' version='2.4.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.browser_2.4.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.ghccompiler' version='2.5.6.201406101929'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.ghccompiler_2.5.6.201406101929.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.hlint' version='2.3.2'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.hlint_2.3.2.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.style' version='2.3.1'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.style_2.3.1.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.util' version='2.5.2'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.util_2.5.2.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.hlint' version='2.6.1.201407221721'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.hlint_2.6.1.201407221721.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.core' version='2.5.4.201307302137'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.core_2.5.4.201307302137.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.doc.user' version='2.6.0.201406101929'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.doc.user_2.6.0.201406101929.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.ghccompiler' version='2.6.3.201501121809'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.ghccompiler_2.6.3.201501121809.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.ui' version='2.3.0'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.ui_2.3.0.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='net.sf.eclipsefp.haskell.browser' version='2.2.3'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://downloads.sourceforge.net/project/eclipsefp/updates/plugins/net.sf.eclipsefp.haskell.browser_2.2.3.jar'/>
+      </repositoryProperties>
+    </artifact>
+  </artifacts>
+</repository>
